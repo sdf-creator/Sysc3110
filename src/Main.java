@@ -7,7 +7,7 @@ public class Main {
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(buddy);
-        System.out.println("Hello " + buddy.getName());
+        System.out.println("Hello " );
 
     }
 }
