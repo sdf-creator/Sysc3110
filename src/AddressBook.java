@@ -11,7 +11,7 @@ public class AddressBook {
     public void addBuddy(BuddyInfo buddy) {
         if (buddy != null) {
             buddies.add(buddy);
-            System.out.printIn("added!");
+            System.out.println("added!");
         }
     }
 
