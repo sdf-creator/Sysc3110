@@ -6,8 +6,11 @@ public class Main {
         BuddyInfo buddy = new BuddyInfo("Homer","7 tyrant street","8343536786");
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
+        buddy.printbuddy();
         addressBook.removeBuddy(buddy);
         System.out.println("Hello " );
+        System.out.println("Hi " );
+
 
     }
 }

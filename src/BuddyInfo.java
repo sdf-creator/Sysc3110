@@ -28,4 +28,8 @@ public class BuddyInfo {
         return phoneNumber;
     }
 
+    public void printbuddy(){
+        System.out.println(name);
+    }
+
 }
